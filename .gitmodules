@@ -1,0 +1,3 @@
+[submodule "scm4llms"]
+	path = scm4llms
+	url = https://github.com/wbbeyourself/scm4llms
