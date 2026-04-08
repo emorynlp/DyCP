@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python run_demo.py --openai_api_key {OPENAI_API_KEY} --hf_token {HF_TOKEN}
 
 # Option 2: Set environment variables
-export OPENAI_API_KEY=sk-...
-export HF_TOKEN=hf-...
+export OPENAI_API_KEY={OPENAI_API_KEY}
+export HF_TOKEN={HF_TOKEN}
 python run_demo.py
 ```
