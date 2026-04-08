@@ -2,9 +2,7 @@
 DyCP Gradio Web Demo using SCM4LLMs dataset.
 
 Usage:
-    python demo_app.py --openai_api_key sk-... --hf_token hf-...
-    # or set env vars OPENAI_API_KEY, HF_TOKEN
-    python demo_app.py
+    python demo_app.py --openai_api_key {openai_api_key} --hf_token {hf_token}
 """
 
 import argparse
