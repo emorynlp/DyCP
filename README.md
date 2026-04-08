@@ -1,7 +1,7 @@
-# DyCP: Dynamic Context Pruning for Long-Form Dialogue with LLMs
+## DyCP: Dynamic Context Pruning for Long-Form Dialogue with LLMs
 > [[Paper]](https://arxiv.org/abs/2601.07994) Nayoung Choi, Jonathan Zhang, Jinho D. Choi — Emory NLP Lab
 
-## Overview
+### Overview
 DyCP is a lightweight context management method for long-form dialogue with LLMs. It dynamically identifies and retrieves relevant dialogue segments conditioned on the current turn, with no offline memory construction and no extra LLM calls.
 
 **Key properties:**
@@ -10,7 +10,7 @@ DyCP is a lightweight context management method for long-form dialogue with LLMs
 - ✅ Single inference-time LLM call per query
 - ✅ Plug-and-play: runs outside the LLM
 
-## How It Works
+### How It Works
 DyCP pre-embeds each dialogue turn as it arrives. When a new user query comes in:
 1. The query is embedded and compared against all pre-embedded previous turns
 2. **KadaneDial** finds contiguous high-relevance spans
