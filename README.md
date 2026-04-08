@@ -7,7 +7,6 @@ DyCP is a lightweight context management method for long-form dialogue with LLMs
 **Key properties:**
 - ✅ No predefined topic boundaries
 - ✅ Preserves sequential dialogue structure
-- ✅ Single inference-time LLM call per query
 - ✅ Plug-and-play: runs outside the LLM
 
 ### How It Works
