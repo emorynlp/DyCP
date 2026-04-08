@@ -1,3 +1,3 @@
 # DyCP
 
-![alt text](capture/image.png)
+![alt text](media/capture.png)
