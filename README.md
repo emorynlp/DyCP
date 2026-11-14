@@ -1,11 +1,8 @@
 ## D-ACR: Dialogue-Aware Context Retrieval for Long-Term Conversational Memory
 > Nayoung Choi, Jonathan Zhang, Jinho D. Choi | Emory NLP Lab | Accepted to Findings of EACL 2027
-> 
-> An earlier version of this work (DyCP) is available [here](https://arxiv.org/abs/2601.07994).
-> 
 
 ### Overview
-D-ACR is a lightweight, training-free method for retrieving context from long conversation histories. Instead of fixing retrieval units (turns, sessions, or summaries) offline, it identifies relevant dialogue segments at query time, conditioned on the current query, with no offline memory construction and no extra LLM calls.
+D-ACR performs dynamic context pruning over long-term conversation histories. Instead of fixing retrieval units (turns, sessions, or summaries) offline, it identifies relevant dialogue segments at query time, conditioned on the current query, with no offline memory construction and no extra LLM calls.
 
 **Key properties:**
 - ✅ Query-conditioned segment boundaries (no predefined topic or session boundaries)
@@ -45,3 +42,6 @@ python run_demo.py
 
 ### Citation
 To be updated
+
+### Note
+This repository is named DyCP (Dynamic Context Pruning), which was the original name of this method. Our earlier work is available [here](https://arxiv.org/abs/2601.07994).
